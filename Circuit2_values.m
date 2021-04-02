@@ -9,6 +9,8 @@ tau=30e-3;          %pump controller time constant
 
 Dspool=1e-2;        %diameter of every port orifice cross section of directional 
                     %valve assume the valve symmetrical with no leakage and zero overlap
+                    
+A_spol = 1/4 * pi * Dspool^2; % area of the spool
 
 Be=1300e6;          %effective bulk modulus of system between pump and directional valve
 
