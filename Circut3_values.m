@@ -71,3 +71,5 @@ mw = 100; %winch mass
 SIMTIME = 15;
 
 step = 1e-5;
+
+g = 9.81;
